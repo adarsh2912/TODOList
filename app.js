@@ -14,7 +14,7 @@ app.use(express.static("public"));
 // const items = ["Buy food","Cook food","Eat food"];
 // const workItems = [];
 
-mongoose.connect("mongodb+srv://admin-adarsh:admin123@cluster0.yozuo.mongodb.net/todolistDB?retryWrites=true&w=majority",{useNewUrlParser: true,useUnifiedTopology: true  })
+mongoose.connect("mongodb+srv://admin-adarsh:<password>@cluster0.yozuo.mongodb.net/todolistDB?retryWrites=true&w=majority",{useNewUrlParser: true,useUnifiedTopology: true  })
 
 const itemsSchema = {
     name: String
